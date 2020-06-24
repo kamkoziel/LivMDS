@@ -1,0 +1,35 @@
+QDialog{
+    background: #4b5162;
+    color: #eee;
+    font: #eee;
+}
+QPushButton{
+     background: #383c4a;
+     color: #eee;
+     font: bold 12px;
+     max-height: 120px;
+     height: 30px;
+     width: 100px;
+     margin:0;
+     border: 0;
+}
+QPushButton::hover{
+    background: #5294e2;
+}
+QLineEdit{
+     background: #383c4a;
+     color: white;
+     font: 12px;
+     max-height: 120px;
+     border: 0;
+     height: 30px;
+     width: 150px;
+     margin:0;
+}
+QLineEdit::active{
+     background: #404552;
+     border-radius: 5px;
+}
+QLabel{
+    color: #eee;
+}

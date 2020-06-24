@@ -1,0 +1,9 @@
+QPushButton {
+    font: bold 12px;
+    max-width: 40px;
+    min-width: 35px;
+    max-height: 35px;
+    border: 0;
+    margin:0;
+    padding: 0;
+}

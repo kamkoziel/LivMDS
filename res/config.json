@@ -1,0 +1,11 @@
+{
+    "app_dir": "C:\\Users\\kkozi\\workspace\\LivMDS\\LivMDS",
+    "pacs_adres": "http://192.168.0.113:8042",
+    "pacs_login": "pi",
+    "pacs_password": "kamil9",
+    "db_host": "192.168.0.113:5432",
+    "db_name": "livermds_db1",
+    "db_user": "postgres",
+    "db_password": "postgres",
+    "dont_show_settings_startup": true
+}

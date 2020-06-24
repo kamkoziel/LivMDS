@@ -1,0 +1,26 @@
+QGroupBox{
+    border: 0;
+    background:  #383c4a
+}
+QPushButton {
+     background: #383c5e;
+     font: bold 12px;
+     max-height: 120px;
+     height: 60px;
+     width: 250px;
+     margin:0;
+     padding:0;
+     border:0
+}
+QPushButton::enabled{
+    background: #383c4b;
+    border-bottom: 1px solid #4b5162;
+}
+QPushButton::hover{
+    background: #5294e2;
+    border:0;
+}
+QPushButton::disabled{
+    background: #404552;
+    border:0;
+}

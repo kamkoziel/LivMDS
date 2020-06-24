@@ -1,0 +1,84 @@
+QObject{margin: 0px; padding: 0px;}
+QMainWindow{
+    background: #4b5162;
+    color: #eeeeee;
+}
+QMenuBar{
+    background: #404552;
+    color: #eeeeee;
+}
+QMenuBar::item:selected{
+    background: #232931;
+    color: #eeeeee;
+}
+QMenu{
+    background: #393e46;
+    color: #eeeeee;
+}
+QMenu::item:selected {
+    background: #232931;
+}
+QWidget{
+    color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+QView{
+    border: 1 1 1 1 #232931;
+}
+QTableView{
+    background: #4b5162;
+    margin:0;
+    padding:0;
+    border:0;
+}
+QTreeView{
+    background: #383c4a;
+    border: 2px solid #404552;
+}
+QHeaderView::section{
+    background: #404552;
+    border: 1px;
+}
+QHeaderView{
+    background: #404552;
+    border: 0;
+}
+QTabBar::tab:selected {background: #404552;}
+QTabBar::tab {background: #383c4a;}
+QTabWidget::pane{background: #404552; border: 0; margin:0; padding: 0;}
+QTabWidget{border: 0; margin:0; padding: 0;}
+
+QSplitter::handle:horizontal{
+    background: #404552;
+}
+QStatusBar{
+     background: #404552;
+     color:#eeeeee;
+}
+QMessageBox{
+     background: #232931;
+}
+QMessageBox QPushButton{
+     background: #393e46;
+}
+QPushButton{
+     background: #383c4a;
+     font: bold 12px;
+     max-height: 120px;
+     height: 50px;
+     width: 250px;
+     margin:0;
+}
+QPushButton::hover{
+    background: #5294e2;
+}
+QPushButton::disabled{
+    background: #404552	;
+}
+QDoubleSpinBox{
+    background: #383c4a ;
+    min-height: 30px;
+    font: bold 14px;
+    border: 0;
+}
