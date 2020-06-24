@@ -1,6 +1,6 @@
-
 **/venv/
 /venv/include
 /venv/Scripts
 /venv/Lib
 /data/.images/
+.idea
