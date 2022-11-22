@@ -15,7 +15,7 @@ nibabel==3.1.0
 numpy==1.18.4
 packaging==20.4
 peewee==3.13.3
-Pillow==8.3.2
+Pillow==9.3.0
 psycopg2==2.8.5
 pydicom==1.4.2
 pyorthanc==0.2.12
